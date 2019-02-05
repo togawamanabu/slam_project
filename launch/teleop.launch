@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <launch>
 	<node pkg="slam_project" name ="teleop_keyboard" type="teleop" output="screen">
-  	      <remap from="teleop_keyboard/cmd_vel" to="cmd_vel" />
 	</node>
 </launch>
